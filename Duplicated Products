@@ -2,5 +2,5 @@
 SELECT TOP (1000) [ProdID]
       ,[ProdName]
       ,[CDT]
-  FROM [MyNoobDB].[dbo].[Temp_Products
+  FROM [MyNoobDB].[dbo].[Temp_Products]
   
