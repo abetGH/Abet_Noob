@@ -1,0 +1,6 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [ProdID]
+      ,[ProdName]
+      ,[CDT]
+  FROM [MyNoobDB].[dbo].[Temp_Products
+  
