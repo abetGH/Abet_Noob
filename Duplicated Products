@@ -1,6 +1,14 @@
+/***
+Please write a query in Microsoft SQL Server database that includes a table named Product. The Product table has columns named ProductId, ProductName, and CreatedDateTime.
+The table contains a unique constraint on the combination of ProductName and CreatedDateTime.
+You need to modify the Product table to meet the following requirements:
+-> Remove all duplicates of the Product table based on the ProductName column.
+-> Retain only the newest Product row.
+***/
+
 /****** Script for SelectTopNRows command from SSMS  ******/
-SELECT TOP (1000) [ProdID]
+SELECT [ProdID]
       ,[ProdName]
       ,[CDT]
-  FROM [MyNoobDB].[dbo].[Temp_Products]
+  FROM [Temp_Products]
   
